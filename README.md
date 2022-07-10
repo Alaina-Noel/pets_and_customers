@@ -9,4 +9,4 @@ Before the assessment, students will be given the [Prework](./prework.md) to com
 The code provided in the `lib` and `spec` directory is an example of the code a student would build for a passing paired assessment for *Groomer* and *Day Care*.
 
 #this readme was update by Alaina at 830am with this one line.
-This is my update for the readme checkout branch.
+#this readme was updated by Andrew at 9:20 with this one line.
