@@ -32,23 +32,6 @@ class Groomer
 
 
 
-    # @customers.pets.flatten
-    #This method needs to go into the customers array,
-    #Then go through each customer one at a time
-    #Customer#1 (@joel) - identify their pet by type.
-    #if their pet by type matches pet_type that pet gets counted.
-
-    #Customer#2 - has two pets & we need to be able to go through each of
-    #hteir pets & see if they shoudl be added to the count.
-
-    #tally method - enumerable keeps a count of total times a condition it met
-    #flatten method - takes nested array makes it singular
-    #count - returns a number
-
-    #instead of flatten use an until method that looks at the array of
-    #customers pets. Loop this until array.length == number of times we loops
-
-
 
 end
 
