@@ -18,18 +18,16 @@ class Groomer
     end
   end
 
-
-  def find_pet_count_by_type(pet_type)
-    customers_with_given_pet_type = []
-    @customers.each do |customer|
-        result = customer.pets.select do |pet|
-          pet.type == pet_type
-        end
-      customers_with_given_pet_type << result
+def find_pet_count_by_type(pet_type)
+  all_customers_pets_with_matching_type = []
+  @customers.each do |customer|
+    each_customers_pets_with_matching_type = customer.pets.select do |pet|
+      pet.type == each_customers_pets_with_matching_type
     end
-    customers_with_given_pet_type.flatten.count
-    end
-
+  all_customers_pets_with_matching_type << each_customers_pets_with_matching_type
+  end
+  all_customers_pets_with_matching_type.flatten.size
+end
 
 
 
